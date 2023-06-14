@@ -285,7 +285,7 @@ body {
   list-style: none;
 }
 .icons {
-  display: none
+  display: none;
 }
 
 .work-item {
@@ -305,7 +305,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--pramery-text-color);
 }
-
 
 /* --------------------------- */
 
@@ -402,13 +401,16 @@ body {
   }
 
   .work {
+    gap: 24px 72px;
     flex-wrap: wrap;
+    flex-direction: row;
   }
 
-    .work-list-item {
-flex-basis: calc((100%-24px)/2);
+  .work-list-item {
+    width: calc((100%-24px) / 2);
+  }
 }
-}
+
 /* Destop */
 
 /* Header */
